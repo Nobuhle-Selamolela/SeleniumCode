@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="23" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-31T20:48:59 SAST" name="Suite" finished-at="2022-01-31T20:49:38 SAST" duration-ms="39175">
+    <groups>
+    </groups>
+    <test started-at="2022-01-31T20:48:59 SAST" name="Test" finished-at="2022-01-31T20:49:38 SAST" duration-ms="39175">
+      <class name="com.seleniumproject.configuration">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.seleniumproject.configuration@70e9c95d]" started-at="2022-01-31T20:48:55 SAST" name="setup" finished-at="2022-01-31T20:48:59 SAST" duration-ms="3390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="flushing()[pri:0, instance:com.seleniumproject.configuration@70e9c95d]" started-at="2022-01-31T20:49:38 SAST" name="flushing" finished-at="2022-01-31T20:49:38 SAST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushing -->
+      </class> <!-- com.seleniumproject.configuration -->
+      <class name="com.seleniumproject.AddButton">
+        <test-method signature="clickadd()[pri:12, instance:com.seleniumproject.AddButton@41a0aa7d]" started-at="2022-01-31T20:49:15 SAST" name="clickadd" finished-at="2022-01-31T20:49:19 SAST" duration-ms="3946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickadd -->
+        <test-method signature="validate_addbtnUrl()[pri:13, instance:com.seleniumproject.AddButton@41a0aa7d]" started-at="2022-01-31T20:49:19 SAST" name="validate_addbtnUrl" finished-at="2022-01-31T20:49:19 SAST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_addbtnUrl -->
+        <test-method signature="validateAdd()[pri:14, instance:com.seleniumproject.AddButton@41a0aa7d]" started-at="2022-01-31T20:49:19 SAST" name="validateAdd" finished-at="2022-01-31T20:49:19 SAST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdd -->
+      </class> <!-- com.seleniumproject.AddButton -->
+      <class name="com.seleniumproject.DeleteButton">
+        <test-method signature="delete_record()[pri:21, instance:com.seleniumproject.DeleteButton@45099dd3]" started-at="2022-01-31T20:49:25 SAST" name="delete_record" finished-at="2022-01-31T20:49:32 SAST" duration-ms="6550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_record -->
+      </class> <!-- com.seleniumproject.DeleteButton -->
+      <class name="com.seleniumproject.Login">
+        <test-method signature="login()[pri:2, instance:com.seleniumproject.Login@38cee291]" started-at="2022-01-31T20:49:05 SAST" name="login" finished-at="2022-01-31T20:49:11 SAST" duration-ms="5936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Valid_url()[pri:3, instance:com.seleniumproject.Login@38cee291]" started-at="2022-01-31T20:49:11 SAST" name="Valid_url" finished-at="2022-01-31T20:49:11 SAST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid_url -->
+        <test-method signature="check_admin()[pri:4, instance:com.seleniumproject.Login@38cee291]" started-at="2022-01-31T20:49:11 SAST" name="check_admin" finished-at="2022-01-31T20:49:11 SAST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_admin -->
+        <test-method signature="check_welcome()[pri:5, instance:com.seleniumproject.Login@38cee291]" started-at="2022-01-31T20:49:11 SAST" name="check_welcome" finished-at="2022-01-31T20:49:11 SAST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_welcome -->
+      </class> <!-- com.seleniumproject.Login -->
+      <class name="com.seleniumproject.SearchButton">
+        <test-method signature="click_search()[pri:17, instance:com.seleniumproject.SearchButton@6340e5f0]" started-at="2022-01-31T20:49:22 SAST" name="click_search" finished-at="2022-01-31T20:49:25 SAST" duration-ms="2886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_search -->
+        <test-method signature="validate_username()[pri:18, instance:com.seleniumproject.SearchButton@6340e5f0]" started-at="2022-01-31T20:49:25 SAST" name="validate_username" finished-at="2022-01-31T20:49:25 SAST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_username -->
+        <test-method signature="validate_employeeName()[pri:19, instance:com.seleniumproject.SearchButton@6340e5f0]" started-at="2022-01-31T20:49:25 SAST" name="validate_employeeName" finished-at="2022-01-31T20:49:25 SAST" duration-ms="41" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.seleniumproject.SearchButton.validate_employeeName(SearchButton.java:95)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_employeeName -->
+        <test-method signature="validate_status()[pri:20, instance:com.seleniumproject.SearchButton@6340e5f0]" started-at="2022-01-31T20:49:25 SAST" name="validate_status" finished-at="2022-01-31T20:49:25 SAST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_status -->
+      </class> <!-- com.seleniumproject.SearchButton -->
+      <class name="com.seleniumproject.FillInDetails">
+        <test-method signature="enter_info()[pri:15, instance:com.seleniumproject.FillInDetails@2794eab6]" started-at="2022-01-31T20:49:19 SAST" name="enter_info" finished-at="2022-01-31T20:49:22 SAST" duration-ms="2999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_info -->
+        <test-method signature="validate_status()[pri:16, instance:com.seleniumproject.FillInDetails@2794eab6]" started-at="2022-01-31T20:49:22 SAST" name="validate_status" finished-at="2022-01-31T20:49:22 SAST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_status -->
+      </class> <!-- com.seleniumproject.FillInDetails -->
+      <class name="com.seleniumproject.PageTitle">
+        <test-method signature="first_test()[pri:1, instance:com.seleniumproject.PageTitle@791f145a]" started-at="2022-01-31T20:48:59 SAST" name="first_test" finished-at="2022-01-31T20:49:05 SAST" duration-ms="5977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first_test -->
+        <test-method is-config="true" signature="EvaluateResult(org.testng.ITestResult)[pri:0, instance:com.seleniumproject.PageTitle@791f145a]" started-at="2022-01-31T20:49:05 SAST" name="EvaluateResult" finished-at="2022-01-31T20:49:05 SAST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=first_test status=SUCCESS method=PageTitle.first_test()[pri:1, instance:com.seleniumproject.PageTitle@791f145a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvaluateResult -->
+      </class> <!-- com.seleniumproject.PageTitle -->
+      <class name="com.seleniumproject.LogoutButton">
+        <test-method signature="logout()[pri:23, instance:com.seleniumproject.LogoutButton@1ffaf86]" started-at="2022-01-31T20:49:35 SAST" name="logout" finished-at="2022-01-31T20:49:38 SAST" duration-ms="3194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="validate_url_landingPage()[pri:24, instance:com.seleniumproject.LogoutButton@1ffaf86]" started-at="2022-01-31T20:49:38 SAST" name="validate_url_landingPage" finished-at="2022-01-31T20:49:38 SAST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_url_landingPage -->
+        <test-method signature="validate_url_landingPage2()[pri:25, instance:com.seleniumproject.LogoutButton@1ffaf86]" started-at="2022-01-31T20:49:38 SAST" name="validate_url_landingPage2" finished-at="2022-01-31T20:49:38 SAST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.seleniumproject.LogoutButton.validate_url_landingPage2(LogoutButton.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_url_landingPage2 -->
+      </class> <!-- com.seleniumproject.LogoutButton -->
+      <class name="com.seleniumproject.SearchRecord">
+        <test-method signature="search_deleted()[pri:22, instance:com.seleniumproject.SearchRecord@13e344d]" started-at="2022-01-31T20:49:32 SAST" name="search_deleted" finished-at="2022-01-31T20:49:35 SAST" duration-ms="2804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_deleted -->
+      </class> <!-- com.seleniumproject.SearchRecord -->
+      <class name="com.seleniumproject.AdminTab">
+        <test-method signature="admintap()[pri:6, instance:com.seleniumproject.AdminTab@e350b40]" started-at="2022-01-31T20:49:11 SAST" name="admintap" finished-at="2022-01-31T20:49:15 SAST" duration-ms="4226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admintap -->
+        <test-method signature="Validate_adminUrl()[pri:7, instance:com.seleniumproject.AdminTab@e350b40]" started-at="2022-01-31T20:49:15 SAST" name="Validate_adminUrl" finished-at="2022-01-31T20:49:15 SAST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_adminUrl -->
+        <test-method signature="validateAdd()[pri:8, instance:com.seleniumproject.AdminTab@e350b40]" started-at="2022-01-31T20:49:15 SAST" name="validateAdd" finished-at="2022-01-31T20:49:15 SAST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdd -->
+        <test-method signature="validateDelete()[pri:9, instance:com.seleniumproject.AdminTab@e350b40]" started-at="2022-01-31T20:49:15 SAST" name="validateDelete" finished-at="2022-01-31T20:49:15 SAST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDelete -->
+        <test-method signature="validateSearch()[pri:10, instance:com.seleniumproject.AdminTab@e350b40]" started-at="2022-01-31T20:49:15 SAST" name="validateSearch" finished-at="2022-01-31T20:49:15 SAST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearch -->
+        <test-method signature="validateReset()[pri:11, instance:com.seleniumproject.AdminTab@e350b40]" started-at="2022-01-31T20:49:15 SAST" name="validateReset" finished-at="2022-01-31T20:49:15 SAST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReset -->
+      </class> <!-- com.seleniumproject.AdminTab -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
